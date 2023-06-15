@@ -1,0 +1,137 @@
+COPYRIGHTED MATERIAL - ALL RIGHTS RESERVED R. SRIKANTH SHIRIDKAR (learngood.in@gmail.com)
+
+-------------------------------
+Welcome to this new section. Congrats on having come so far - but there is still a lot more ahead to go!! 
+
+This is an INTERMEDIATE LEVEL project. This means that I will not be repeating the basics. It will also mean the projects will be more complex - and so you should be completely hands-on. In some cases, I will only show directions for a few items - and you should explore in greater depth. Nothing to fear though - an important part of learning will be discovery. 
+
+STEPS TO REPLICATE THE PROJECT.
+-------------------------------
+
+STEP 1. install Drupal
+	- I have used Drupal 8.2.6 for this project
+
+STEP 2. Change Site name and Logo
+	- Logo image is available in section resources
+
+STEP 3. Change theme 
+	- research suitable themes
+	- I have used Mayo theme
+	- <Mayo theme specialities/customization>
+	(very colourful, 30 pre-set colour scheme options, individual colours customizable)
+	** Color Scheme: Sepia
+	** Logo Image (imagen mujer cocinando, proporcionada en folder)
+	** Favicon (misma imagen anterior, se puede)
+	** Font Settings
+		Base font size = 100% (16px)
+		Base font family = Sans Serif: Verdana, Geneva, Arial
+		Heading font family = Serif: Georgia, Palatino, Book Antiguq
+		
+	** Style Settings
+		Content box round corners = Both sidebar block and note
+		Menubar style = Normal
+	** Advanced Header Settings
+		Header watermark = Flower.
+
+Note: the URL alias to be used is shown in <angle brackets>
+
+STEP 4. Create Taxonomies
+	Meal Type
+	- Appetizers & Snacks </AppetizersAndSnacks>
+	- Breakfast & Brunch </BreakfastAndBrunch>
+	- Desserts </Desserts>
+	- Dinner </Dinner>
+	- Drinks </Drinks>
+	
+	Diet & Health
+	- Diabetic </Diabetic>
+	- Gluten Free </GlutenFree>
+	- Healthy </Healthy>
+	- Low Calorie </LowCalorie>
+	- Low Fat </LowFat>
+	
+	Ingredient
+	- Fully Vegetarian </FullyVegetarian>
+	- Seafood </Seafood>
+	- Chicken </Chicken>
+	- Rice dish </RiceDish>
+		
+	Spice Indicator
+	- Low spice </LowSpice>
+	- Medium spice </MediumSpice>
+	- HOT spice </HotSpice>
+	- SUPER HOT spice </SuperHotSpice>
+		
+	Cooking Style
+	- Quick & Easy (Bachelor's delight) </QuickAndEasy>
+	- Slow Cooker </SlowCooker>
+	- BBQ & Grilling </BBQAndGrilling>
+	- Vegetarian </Vegetarian>
+	- Traditional South Indian </TraditionalSouthIndian>
+		
+	Dish Type
+	- Rice based main course </RiceBasedMainCourse>
+	- Gravies for rice and Indian breads </Gravies>
+	- Side dish </SideDish>
+	- Beverages </Beverages>
+		
+	Regional
+	- Konkani & Malabar style </KonkaniAndMalabarStyle>
+	- South Indian style </SouthIndianStyle>
+	- North Indian style </NorthIndianStyle>
+	- Chettinad style </ChettinadStyle>
+	- Rajasthani style </Rajasthani_style>
+	- Gujarathi style </Gujarathi_style>
+
+STEP 5. "Manage Fields", Associate Article content type with all newly created vocabularies
+
+	Structure / Content type 
+	En el renglon del Article, seleccionar: Manage Fields
+	Agregar los Nuevos Campos uno por uno para cada Vocabulario
+	* Cooking Styles
+	* Diet & Health
+	* Dish Type
+	* Ingredient
+	* Meal Type
+	* Regional
+	* Spice Indicator
+
+STEP 6. "Manage Form Display" for Article Content Type
+	- modify positioning for your taxonomy terms [move above body]
+	- select widget [according to limited/unlimited choices you had given earlier]
+
+	* Meal Type - Check boxes / Radio Buttons
+	* Diet & Health _ Select List
+	* Ingredient - Select List
+	* Spice Indicator - Select List
+	* Cooking Style - Select List
+	* Dish Type - Select List
+	* Regional - Check boxes / Radio Buttons
+
+STEP 7. "Manage Display" - for Article Content Type - to change how the homepage will look
+	- ONLY for the TEASER view mode
+	- change "Body" - make trimmed length to 100 characters
+
+STEP 8. Create Recipes Content - using Article Content Type
+	- create at least 10 recipes
+	- make all taxonomy selections (else they will not get selected from the menu!)
+	
+STEP 9. Modify Main Navigation Menu 
+	- Add new Terms corresponding to the Taxonomy that you have created
+	- start with the top level menu links - these will be the vocabulary names. Link all of them (top level menu links) to the front page <front>.
+	- Don't forget to add taxonomy URLs to the new terms you are creating - corresponding to the "alias URLs" from before
+		
+STEP 10. OPTIONAL: Create a suitable Home Page (use Basic Page content type)
+	
+ADVANCED ASSIGNMENTS: 
+1. How will you remove Authoring Information? Eg: "Submitted by admin on Mon, 04/24/2017 - 18:44" - this should NOT appear with your post
+2. If you are using the MAYO theme - try installing the SuperFish menu plugin - you will find instructions on the theme download page
+3. Build a simple workflow for content creation - by defining roles and permissions. 
+
+*********Copyright Info*********
+* Copyright Srikanth R Shirodkar 2017-2022. srikanth.shirodkar@gmail.com
+* Lifetime access for 94% OFF discount for just $12  - HD video Lessons, Quizzes, 10 complete Projects:
+* Share or Gift to your Colleagues, Team members, friends or family members
+* https://www.udemy.com/drupal-tutorial/?couponCode=COPYRIGHTDISCOUNT
+* CONQUER Drupal 8 today! Get promotions, respect of peers and mastery of your domain.
+********************************
