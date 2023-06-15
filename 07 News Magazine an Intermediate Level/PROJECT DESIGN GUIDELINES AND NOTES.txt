@@ -1,0 +1,105 @@
+PROJECT OBJECTIVE: 
+1. Build an Online News Magazine Website
+   to showcase Blocks in Drupal
+
+   Inspiration from: www.techcrunch.com
+
+2. Create Blocks using several techniques: 
+	a. from pre-built Drupal Core (eg: user login block, recent comments)
+	b. from Modules (eg. Polls, )
+	c. from Menus 
+	   - I will not show Views created blocks because we have
+	     not covered it yet. Will be done in Views section.
+	d. from Custom created Blocks
+	   - simple HTML
+	   - download file block ("inviting authors")
+
+3. Demonstrate Visibility using different settings:
+	a. Pages
+	b. Content Types
+	c. Roles
+	d. User - mention only (https://www.drupal.org/project/block_access)
+
+---------------Project Design-------------------
+
+Step 1: install Drupal. I have used Drupal 8.3.2 for this project
+
+Step 2: Configuration > System > Basic site settings
+	a. Sitename: "TechZine"
+	b. Slogan: 
+	   "The latest technology news and information on startups"
+		
+Step 3: Download, Install and make new theme default
+		- Theme: NewsPlus Lite 
+		
+Step 4: Adding Drupal Core Blocks
+	- Block Layout Page >> Select Region >> Place Block >> 
+	  - User Login Block, sin cambios. SAVE BLOCK.
+	  - Recent Comments, sin cambios. SAVE BLOCK.
+	SAVE BLOCKS.
+
+Step 5: Blocks from Menus (from free-form links / Tags / Taxonomy)
+	CREATE A MENU
+	Structure / Menus
+	Add Menu
+	Title: colocar un nombre.
+	Administrativ Summary: especificar algo.
+	SAVE.
+	============================
+	REPEAT FOR EACH MENU ITEM
+	Add Link
+	Menu Link Title: colocar el titulo del enlace.
+	Link: establecer el nodo o el alias.
+	Description: colocar una descripcion.
+	SAVE.
+	============================
+	CREATE A MENU BLOCK
+	this is a new feature from Drupal 8, 
+	the Menu block module has been moved to the core.
+	Structure / Block Layout
+	localizar la Region donde se ubicara el menu
+	Place Block
+	ubicar el menu
+	Place Block
+	no hacer cambios
+	SAVE BLOCK.
+	SAVE BLOCKS.
+
+Step 6: Blocks from Modules
+	- Install Poll module. 
+	  This will add a new "Poll" tab under Content.
+	- Create a new Poll 
+
+Step 7: Custom Block Types
+	- Talk about Adding Blocks vs. Adding Block Types
+	  Crear primero el Tipo y luego el Custom Block.
+	- Crear un Tipo para descargar un Archivo PDF.
+	- Crear un Custom Block para tal efecto.
+===================
+Create Users:
+
+anonymouse
+techie mechie
+John Doe
+Dolores Abernathy
+
+=====NOTES==========
+Interesting Points: 
+1. Main page content itself is a block
+2. Regions are layout areas defined by the Theme
+3. Instances of the Block are placed in Regions (this is new in Drupal 8)
+
+Simple Block Ideas for you to try out: 
+1. Custom: Quote of the day
+2. Custom: Embed code 
+   youtube/paypal/Facebook /instagram
+3. External - Drupal Poll Module
+4. Core: Recent Comments / Recent Content, 
+
+*********Copyright Info*********
+* Copyright Srikanth R Shirodkar 2017-2022. srikanth.shirodkar@gmail.com
+* Lifetime access for 94% OFF discount for just $12  - HD video Lessons, Quizzes, 10 complete Projects:
+* Share or Gift to your Colleagues, Team members, friends or family members
+* https://www.udemy.com/drupal-tutorial/?couponCode=COPYRIGHTDISCOUNT
+* CONQUER Drupal 8 today! Get promotions, respect of peers and mastery of your domain.
+********************************
