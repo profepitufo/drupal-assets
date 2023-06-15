@@ -1,0 +1,23 @@
+﻿BLOGS
+Elementos que componen a un Blog:
+
+1. Cronologia en Reversa, los nuevos articulos se despliegan primero.
+
+2. Teaser Design, conocido tambien como "snippet" o "summary". Se muestra un breve resumen y se le interesa al usuario puede pulsar en el boton Read More...
+
+3. Sistema de Navegacion diseñado alrededor de los TAGS, SIDEBAR, POPULAR ARTICLES.
+
+4. Se permiten comentarios de los usuarios.
+
+5. Imagenes que aparecen en los Teaser,son diferentes de aquellas en los posts.
+
+6. Posts relacionados con el posts original.
+
+7. Una pagina About Me.
+
+8. RSS feed y botones de Redes Sociales.
+
+
+
+
+

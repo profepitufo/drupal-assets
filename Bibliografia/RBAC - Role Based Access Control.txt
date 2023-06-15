@@ -1,0 +1,73 @@
+﻿RBAC - Role Based Access Control
+
+Users, roles and Permissions
+Basic Roles:
+1.Anonymous
+2.Authenticated
+3.Administrator
+
+Un Role esta asosiado a Permisos
+
+Configuration / Account Settings
+Contact Settings
+Anonymous Users
+Administrator Role
+Registration and Cancellation
+Notification email address
+
+3 formas de crear Usuarios
+admin
+visitor
+admin in bulk
+
+People
+Contiene un listado de los usuarios Activos en el sistema
+
+Tiene 3 Tabs: List, Permission, Roles
+Add User
+Email address
+Username
+teclear los datos correspondientes
+Status: Blocked (no puede accesar hasta que el Admin lo Active)
+Active: Puede ingresar
+
+Roles
+Authenticated user
+Administrator
+Notify user of new account
+Se puede incluir una imagen del usuario
+Create
+
+Visitor
+Create New Account (el usuario crea su propia cuenta).
+En esta opcion, el usuario solamente introduce su Email y su Nombre de Usuario, posteriormente se le notifica por medio de un correo con un enlace, al pulsar en ese enlace para confirmar su registro, es cuando se le solicita un Password.
+
+Reset your password
+Se envian los pasos necesarios para poder modificar su password.
+
+Assignment Roles and Permissions
+People / Roles
+Add role: Blog Contributor
+Add role: Blog Editor (activar todos los permisos del Articulo)
+
+Tab Permission
+Localizar la seccion NODE
+dependiendo el tipo de Role se marcaran los permisos correspondientes, una vez realizado esto, se deben asociar los nuevos Roles con los Usuarios agregados.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

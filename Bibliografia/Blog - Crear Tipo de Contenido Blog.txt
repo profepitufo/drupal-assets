@@ -1,0 +1,54 @@
+﻿CREAR UN TIPO BLOG
+Structure / Content Types / Add Content Type
+Name: Blog
+Machine-readable name:jmBlog
+Description: Used for creating Blog Post.
+Submission form setting: Preview before submitting = Disabled.
+Publishing options: 
+   (desactivar) Published
+   (desactivar) Promoted to front page
+   (desactivar) Sticky at top of list
+   (activar) 	Create new revision
+Display settings: 
+   as is
+Menu settings: 
+   (disable) 	Main navigation
+SAVE
+==============================================================
+MANAGE FIELDS
+Add Field
+Add a new field -> (select a field type) Text (formatted, long)
+Label: Teaser
+SAVE and CONTINUE
+Allowed number of values
+Limited: 1
+SAVE FIELD SETTINGS
+(enable) Requiered Field
+SAVE SETTINGS
+===============================================================
+Add Field
+Add a new field -> (select a field type) Image
+Label: Feature Image
+SAVE and CONTINUE
+Upload destination
+Default Image
+Alternative Text
+Title
+Limited: 1
+SAVE FIELD SETTINGS
+Dejar Todo como se encuentra en esta seccion.
+Enable Alt Field
+Alt Field Required (enable)
+SAVE SETTINGS
+================================================================
+Add Field
+Re-use an existing field -> select Entity reference: field_tags.
+Label: Tags.
+SAVE and CONTINUE
+REFERENCE TYPE
+(enable) Create referenced entities if they don't already exist.
+AVAILABLE VOCABULARIES
+(enable) Tags
+SAVE SETTINGS
+
+

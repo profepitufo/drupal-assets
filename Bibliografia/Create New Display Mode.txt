@@ -1,0 +1,16 @@
+﻿CREATE NEW DISPLAY MODES
+Structure / Display Modes
+-Form
+-View
+
+View Modes
+Add New Content View Mode
+Name: Simple Event
+SAVE
+
+Structure / Content Type 
+CUSTOM DISPLAY SETTINGS
+activar Simple Event
+SAVE
+* al aparecer una nueva Tab que contiene el display mode que se va a modificar, cambiar lo que se desee.
+

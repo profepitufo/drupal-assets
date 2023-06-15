@@ -1,0 +1,14 @@
+﻿CREATE RECIPE CONTENT TYPE
+-en la seccion SUBMISSION FORM SETTINGS, cambiar el TITLE FIELD LABEL: Dish Name.
+-PUBLISHING OPTION, desactivar PROMOTED TO FRONT PAGE.
+-DISPLAY SETTINGS, desactivar la casilla de DISPLAY AUTHOR AND DATE INFORMATION.
+-MENU SETTINGS, desactivar la casilla de MAIN NAVIGATION.
+SAVE AND MANAGE FIELDS
+*****************************************
+=cambiar el nombre o label del BODY por DIRECTIONS.
+=agregar un cambio denominado INGREDIENTES como text plain. (unlimited)
+=agregar el campo FOOD SENSITIVITIES, del vocabulario FOOD SENSITIVITIES.
+
+-acomodar los campos al gusto.
+-usando el Modulo DEVEL, construir las recetas.
+

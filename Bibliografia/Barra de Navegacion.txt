@@ -1,0 +1,19 @@
+﻿NAVIGATION TOOL BAR
+MANAGE
+* Content = Content, File, Comments.
+* Structure = Block Layout, Comment Types, Contact Forms, Content Type, Display Modes, Menus, Taxonomy, Views.
+* Appearance = About Install Theme and the way to stablish it's Settings.
+* Extend = Manipulate Modules. List, Update, Uninstall.
+* Configuration = Everything to set to work the Drupal Site like: site information, shortcuts, text formats, account settings, etcetera.
+* People = Add, Update or Remove Users, Permissions, Roles.
+* Reports = Status Reports.
+* Help = Documentation for specific topics.
+
+SHORTCUTS
+* short methods for some work.
+
+USER
+* User Profile.
+
+QUICK EDIT
+* shows a pencil where you can edit the section.

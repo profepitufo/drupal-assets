@@ -1,0 +1,24 @@
+﻿CONTENT IN BULK
+
+Content, se muestran todos los articulos que se han escrito
+
+Debajo del boton Add content aparecen otras opciones como:
+Published status
+Content type
+Title
+Language
+Action
+
+Sirven para seleccionar los contenidos con los que se quiere trabajar
+
+En la opcion de Action, es donde se selecciona la operacion que se quiere realizar con lo seleccionado
+
+El despliegue de esta pagina se ha generado con una operacion denominada VIEWS que tiene Drupal, con la que se pueden diseñar despliegues al gusto del usuario
+
+
+
+
+
+
+
+

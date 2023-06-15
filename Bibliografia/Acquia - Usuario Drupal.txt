@@ -1,0 +1,7 @@
+http://drupal8beta.dd:8083
+http://localchost:8083/phpmyadmin/
+
+
+
+username: juan
+password: Gonzalez#2099

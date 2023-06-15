@@ -1,0 +1,7 @@
+﻿Ingeniería de Sistemas
+
+La TGS o el Enfoque de Sistemas, es aplicable en todo objeto que sea considerado un Sistema como: una Empresa, Escuela, llegando hasta la Informática en el Desarrollo de Sistemas de Información.
+
+La rama que generalmente involucra este aspecto Administrativo y lo Integra con el Informático es denominada Ingeniería de Sistemas; considerando a un Sistema como una combinación de medios integrados de tal forma que puedan desarrollar una determinada función como respuesta a una necesidad concreta. (Blanchar, Benajmin).
+
+Un Sistema de Información es un sistema del tipo artificial, que ocupa un espacio físico, dinámico y abierto porque interactúa con otros sistemas. En sí, la Ingeniería de Sistemas es la Aplicación efectiva de métodos científicos y de ingeniería para transformar una necesidad operativa en una configuración determinada del sistema mediante un proceso Top-Down des establecimiento de requisitos, selección del concepto, análisis y asignación funcional, síntesis, optimización del diseño, prueba y evaluación; se encuentra orientada al proceso y emplea procedimientos de realimentación y control. (Blanchar, B. S., W.J. Fabrycky, y D. Verma, 1994).

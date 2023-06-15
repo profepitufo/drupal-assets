@@ -1,0 +1,11 @@
+﻿Add content
+All content
+
+Manage / Content
+Comments Tab
+
+* sobre la estrella que se encuentra ubicada a un lado de la palabra, aparece una signo de +, que al presionarlo, agrega esta opcion al menu Shortcuts, con la finalidad de acceder a el de una manera rapida.
+
+* se pueden tener atajos para roles o usuarios especificos.
+
+* al final del menu aparece la opcion Edit shortcuts, donde se pueden agregar y modificar para usuarios.

@@ -1,0 +1,30 @@
+﻿COMPANY BROCHURE WEBSITE
+DRUPAL MASTERCLASS
+
+Create a WebSite Luxury Watch Manufacturer.
+Functional, with a few static pages, a simple web design.
+Search box and contact form.
+With no programming knowledge.
+
+INTERFACE DRUPAL
+The front page.
+Menu Administrador
+Sub Menu Administrador
+Main Menu (siempre visible para navegar el sitio)
+User Account Menu (arriba derecha)
+Blocks son las partes fundamentales de Drupal, es donde se colocan todos los elementes que debe agruparse en un determinado Block.
+Content Area. donde apareacera todo el contenido del sitio.
+
+MENU ADMINISTRADOR
+Content. Contenido en paginas.
+Structure. Administra block, menus, etc.
+Appearance. Configurar la apariencia.
+Extend. Extender la funcionalidad con Modulos.
+Configuration. Configura el sistema y demás.
+People. Configurar permisos y usuarios.
+Reports. Reportes varios.
+Help. Documentacion oficial de Drupal.
+
+Al pasar el puntero del ratón por encima de cualquier elemento, aparece un lapiz, señal de que el elemento se puede Editar.
+
+

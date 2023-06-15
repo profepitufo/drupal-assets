@@ -1,0 +1,32 @@
+﻿Structure / Views
+en la columna OPERATIONS, pulsar en EDIT de la vista->Articles.
+
+Add / Block
+PAGER
+clic on MINI
+for: This block
+(enable) Display a specified number ot items
+Apply
+Items to display: 1
+Apply
+
+FORMAT
+seleccionar Table
+For: This Block
+enable - unformatted list
+Apply, Apply
+seleccionar Content
+For: This Block
+enable - Fields
+Apply
+Apply
+seleecionar Body
+
+AGREGAR EL BLOCK A UNA REGION
+Structure / Block Layout
+Sidebar first->Place block
+seleccionar Articles y pulsar en Place Block
+SAVE BLOCKS
+
+
+

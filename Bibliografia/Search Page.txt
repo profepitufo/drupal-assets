@@ -1,0 +1,16 @@
+﻿SEARCH PAGE
+Configuration / Search Pages
+SEARCH PAGES (section)
+Type: content
+Add new page
+Label: Site
+Path: site
+CONTENT RANKING(section)
+(dejar tal como se encuentra)
+Add Search Page
+
+Al regresar, cambiar el orden para que nuestra pagina se encuenter primero.
+
+En la columna OPERATIONS, cambiar la opcion a SET AS DEFAULT, para que se la pagina de busqueda del sitio.
+
+Ejecutar CRON para indexar el contenido del sitio.

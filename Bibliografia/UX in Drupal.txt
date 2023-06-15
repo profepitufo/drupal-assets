@@ -1,0 +1,32 @@
+﻿UX in Drupal - Themes
+
+A collection of template files, configuration files and asset files which together determine the look and feel of a site.
+
+Themes: Nexus and Zircon
+
+Download the Theme
+Extract the files
+Upload the folder to Drupal theme folder
+Read the directions (readme.txt, etc.)
+Install the theme
+Make it the active theme (set as default)
+
+If Problems
+Configuration / Development / Performance
+Clear Caches.
+
+Personalization and Customization of Themes
+
+Global
+Specific Options
+Code Modification
+
+Where to Find Great Themes
+-Drupal.org (Download and Extend)
+-morethanthemes.com
+-themeforest.net
+
+
+
+
+

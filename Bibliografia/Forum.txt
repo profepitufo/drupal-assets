@@ -1,0 +1,8 @@
+﻿FORUM MODULE
+Extend
+ubicar el modulo Forum
+Requieres: Node, Text, Field, Filter, User, Systme, Entity Reference, History, Taxonomy, Comments, Options.
+Activar el modulo marcando su casilla.
+Se agrega en la Estructura y en Contenido aparece un nuevo elemento denominado Forum Topic.
+
+

@@ -1,0 +1,21 @@
+﻿CREAR ARTICULO COMO CONTENIDO
+Content / Add
+Article
+
+TAGS
+IMAGE (diferente a la que se coloca dentro del articulo)
+COMMENT SETTINGS
+
+Un articulo no debe contener MENU LINK
+
+¿como se muestran los articulos?
+Crear un nuevo Item de Menu
+Structure / Menus
+Main Navigation: Add Link
+Title: News
+Link: /node
+Enable
+Descripcion: bla bla bla
+Guardar
+
+

@@ -1,0 +1,155 @@
+﻿CREAR TIPO DE CONTENIDO EVENTOS
+
+Structure / Content Type
+Add Content Type
+
+Name: Event
+Description: Use this to add webinar events.
+
+SUBMISSION FORM SETTINGS no change.
+PUBLISHING OPTION not promoted to front page.
+LANGUAGE SETTINGS no change.
+DISPLAY SETTINGS No mostrar autor y fecha.
+MENU SETTINGS. No Main navigation.
+===========================================
+MANAGE FIELDS
+Add Field
+* Image
+  -File Directory: images/events
+SAVE SETTINGS.
+
+* Link
+  -Label: Webinar Link
+  -Help Text: Include the link to the webinar so that users can join the event.
+  -Required Field
+===========================================
+Extend (agregar el modulo incluido en el Core)
+localizar Telephone
+activar el modulo
+===========================================
+Add Field
+Telephone number
+Label: Phone
+Limit: 1
+Help Text: Please include a contact phone number if available.
+DEFAULT VALUE
+Phone: (123) 456-7890
+SAVE SETTINGS.
+* Editar el Contenido Evento creado anteriormente y colocar un Numero de Telefono.
+===========================================
+MANAGE DISPLAY
+* modificar el FORMAT del telefono seleccionando Telephone Link
+SAVE.
+===========================================
+Add Field
+Date
+Label: Fecha
+Date Type: Date and Time
+Limit: 1
+Help Text: Select the day of the Event.
+Requiered Field
+SAVE SETTINGS.
+MANAGE FORM DISPLAY
+* se puede cambiar la manera de desplegar el formato al momento de editar el Evento o de Crearlo.
+SAVE.
+===========================================
+* modificar el horario para que en lugar de que sea de 24 horas, se emplee el de 12 horas con a.m y p.m.
+Configuration / Date and Timpe Formats
+Add Date Format
+Name: Date and Time with 12 Hour Clock
+Format String:F j, Y - g:H a
+Add Format
+* regresar al tipo de contenido Evento y cambiar la fecha y hora al formato nuevo creado.
+SAVE.
+===============================================
+* modificar nuevamente la manera en la que se despliega el Evento de acuerdo a lo que se desee, empleando MANAGE DISPLAY.
+* modificar incluso su Teaser para que se visualice de una mejor manera.
+* Agregar RSS para Feeds.
+
+************************************************
+Structure / Views
+Add New View
+Name: Upcoming Events
+-activar la casilla Description y colocar una descripcion en el textbox que aparece, es solamente administrativa, para el user.
+Description: A list of upcoming events containing a block, page and rss display.
+VIEW SETTINGS:
+Show: Content of type: Event sorted by: Newest First
+PAGE SETTINGS:
+-activar la casilla Create a Page
+Page Title: Upcoming Events.
+http://localhost:8083/upcoming-events.
+Display Format: Unformatted list of: teasers.
+Items to display: 10 Use a Pager and Create a Menu Link.
+Menu: Main Navigation.
+Link Text: Events.
+-desactiva la casilla Include an RSS feed (se hara de manera posterior).
+Block Settings: (desactiva) Create a Block.
+SAVE AND EDIT.
+(visualizarla para ver como se muestra ahora).
+***************************************
+UPCOMING EVENTS IN BLOCK
+Structure / Views
+-ubicar Upcoming Events y pulsar en el boton EDIT.
+Add / Block
+FORMAT > Show
+For: This block (override)
+-cambiar Content por Fields
+APPLY (THIS DISPLAY)
+-en el dialogo que aparece, dejar todo como se encuentra y presionar APPLY.
+FIELDS
+Content: Title
+Add
+For: THIS BLOCK (OVERRIDE)
+Search: event date
+-activar o se activa la casilla Content: Event date
+APPLY (THIS BLOCK)
+APPLY (THIS DISPLAY)
+-en el dialogo que aparece, dejar todo como esta.
+APPLY.
+SORT CRITERIA
+For: This Block
+-quitar el Sticky
+PAGER
+For: This block (override)
+-habilitar: Display a specified number of items, APPLY (THIS DISPLAY)
+-Items to display: 3, APPLY.
+More Link
+For: This Block (override)
+-habilitar > Create mor link
+APPLY (THIS DISPLAY).
+SAVE.
+*******************************************
+STYLE SETTINGS.
+-se puede colocar un formato de encabezado tipo HTML como H1 - H6.
+-modificando la fecha para que se muestre como lo hemos especificado y no como lo tiene por default el Drupal > seleccionar el campo, configurar Date Format y escoger el custom que se ha realizado; REWRITE RESULTS y activar o marcar la casilla que dice: Override the output of this field with custom text > Text: Date & Time: {{ field_event_date }}
+NO RESULTS BEHAVIOR
+-activar la casilla: Hide if Empty.
+APPLY.
+SAVE.
+******************************************
+Structure / Block Layout
+-ubicar el block que se acaba de crear y en la seccion PAGES, colocarlo en la pagina frontal o Inicial. Pages: <front>
+-colocarlo en Sidebar Second.
+******************************************
+AGREGAR UN FEED RSS.
+-modificar la View y agregar otra del tipo FEED.
+Add > FEED
+-cambiar el titulo: Upcoming Events for Tasty Cakes. Recordar que debe ser Override.
+-quitar lo sticky
+PATH
+events/rss.xml > APPLY.
+PAGER
+-cambiar Items to display: 20 > APPLY
+ATTACHE TO
+-marcar las casillas para: Master, Block, Upcoming Page > APPLY.
+
+
+
+
+
+
+
+
+
+
+

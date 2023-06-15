@@ -1,0 +1,36 @@
+﻿PAGE MANAGER and PANELS
+
+instalar los modulos
+
+structure / pages
+add page
+
+seccion PAGE MANAGER
+Title: HomePage
+Path: homepage
+Variant type: Panels
+NEXT
+NEXT
+Layout: Two column stacked
+NEXt
+FINISH
+
+Content: Add new Block
+agregar los bloques en el lado que se requiere.
+
+structure / block layout
+quitar search y tools blocks
+
+agregar un Custom Block
+SAVE
+
+structure / pages / Edit / content
+SAVE
+
+Se pueden tener mas de una Variant que contenga paneles diferentes con condiciones distintas, por ejemplo, si se desea desplegar una informacion para Usuarios Autenticados y otra para No registrados.
+
+Se deben generar y reordenar, el que tenga la condicion o criterio de seleccion debe ir colocado primero y despuest el predeterminado.
+
+In-Place-Editor permite modificar el Layout, Editar o Manipular contenido de manera interactiva en la pagina que se ha creado.
+
+

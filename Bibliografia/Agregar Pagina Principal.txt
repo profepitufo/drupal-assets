@@ -1,0 +1,57 @@
+﻿CONFIGURACION DEL SITIO.
+MENU CONFIGURATION
+
+seleccionar Configuration
+Basic Site settings
+Site name: Amadeus Watch Company
+Slogan: Watches for Sophisticated Gentlemen and Ladies
+Email address:
+
+FRONT PAGE
+
+
+
+ERROR PAGES
+se pueden configurar paginas para Negar Acceso o Pagina no Encontrada.
+
+CONTENT
+Add Content
+se pueden crear Articulos o Paginas Basicas.
+seleccionar BASIC PAGE link.
+incluir el texto del archivo correspondiente e incluir una imagen de un reloj (front page watch)
+
+los NODOS son una pieza importante en Drupal, casi todo se maneja por medio de nodos.
+
+sin embargo, al hacer la correccion, no se actualiza la pagina, por lo que hay que modificar el NODO correspondiente que en el caso de la pagina es: node/1
+
+modifcar en la seccion de BASIC SITE SETTINGS la parte que dice FRONT PAGE / Default front page: http:papernews.260mb.net/node/1
+
+ocultar luego el titulo del articulo de la pagina principal. emplear el metodo directo del lapiz en la pagina. (ya no lo tiene como parte de las opciones)
+
+CAMBIAR OTRAS COSAS
+Colocar el Logo del Sitio
+Cambiar el Color del Sitio
+Cambiar el Icono del Sitio en la pestaña
+
+Todo ello se logra desde el menu Appearance
+El tema predeterminado de Drupal: Bartik
+pulsando en el Link: Settings, se realizaran las modificaciones
+desplazarse hacia la parte final de la pagina, en las secciones LOGO IMAGE y FAVICON
+desactivar la opcion en la que se indica que se emplee el de Drupal; buscar la imagen que se desea (manecillas) y subirla
+realizar lo mismo para la icono
+
+Color: Firehouse
+
+
+
+
+
+
+
+
+
+
+
+
+
+

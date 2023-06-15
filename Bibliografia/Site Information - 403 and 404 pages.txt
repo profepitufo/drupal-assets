@@ -1,0 +1,31 @@
+﻿SITE INFORMATION
+
+Configuration / Site Information
+SITE DETAILS
+Site Name: (el nombre del sitio)
+Slogan: (si se tiene)
+Email Address:(el que tiene el WebMaster)
+
+FRONT PAGE
+Default Front Page
+http://localhost:8083 /node, o bien, /Bienvenida
+
+ERROR PAGES
+Default 403 (access denied) Page
+http://localhost:8083/ (nombre del URL Alias o Node)
+Default 404 (not found) Page
+http://localhost:8083/ (nombre del URL Alias o Node)
+* En este ultimo, se puede colocar la opcion search/node.
+
+
+
+
+
+
+
+
+
+
+
+
+

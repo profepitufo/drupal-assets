@@ -1,0 +1,22 @@
+﻿Módulos para Drupal 8
+
+Devel
+Field as Block
+Inline Entity Form
+Contact Storage
+Display Suite
+CSS Editor
+Paragraphs Types
+Page Manager
+Panels
+Media Entity
+Media Entity Image
+Video Embed Field
+Entity Browser
+Entity Embed
+Ctools
+Crop API
+Image Widget Crop
+Focal Point
+Masquerade
+Guttenberg Text Editor

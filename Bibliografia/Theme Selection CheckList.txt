@@ -1,0 +1,52 @@
+﻿Theme Selection Checklist - PRINT AND USE
+Section 10, Lecture 39
+PITFALLS:
+    A very common newcomer mistake is to select a theme that looks "Ultra Cool" purely on first impressions - and then reverse engineer the complete site based on the theme - INSTEAD of the other way around. 
+    Another extremely common rookie mistake is to totally ignore the non-functional requirements of your web application. 
+
+
+So how should you go about selecting your theme?
+
+
+BEST PRACTICES:
+
+
+The absolute first thing you should do - is to put your requirements on paper - even before you start looking at themes.   
+
+What are YOUR specific requirements? 
+
+1. Know your target audience, you should have clarity on the demographics of your audience and users. 
+2. Define your target audience, the demographics, the domain, the business plan, and the features of your application - without which, do not invest any time in the theme selection process.  
+
+
+THEME SELECTION CHECKLIST
+1. Is the Theme4 available in YOUR target Drupal version? 
+
+The very first thing would be cut-off themes based on the version number. If a theme or module is not earmarked for YOUR target Drupal version - don't even bother looking at it. Even if you are able to hack it somehow to work - don't bother, because the maintenance issues later on, will just be worth it. If your target version is NOT available in a stable release - but only in Development version - do not bother.
+
+2. Is the theme actively maintained by it's team?
+
+What is it's popularity? (you can leverage other's diligence), is there documentation for a theme, maintainability, how should you maintain after customization? what are the REGIONS provided by the theme - does this match your requirements - or can you create new regions easily?
+
+3. What are the issues in the issue log? Who is using it? 
+
+Look for any demos, any reviews, any big names using this theme? any of your competitors?
+
+4. Is theme responsive? (HINT: If a theme is not mobile and multi-screen friendly - that's a big drawback today).
+
+Does the theme use new technology (like YAML)? This keeps changing everyday - so more appropriately you should be asking if the technology organically matches what your own technology stack.
+
+5. Is there a support system for the theme?
+
+the discussion forum for this theme, either on Drupal or any other forum - or on the developers website. A QUIET forum could both mean that all issues have been resolved - and hence a SOLID theme - or it could mean exact reverse also. So you have to evaluate the support.
+
+6. How old is the theme? 
+
+Again there are both positive and negative connotations to this. An aged theme USUALLY means a mature lifecycle with bugs ironed out over the versions. It could also mean an older design.
+
+7. What are your special requirements on browser support? 
+
+Do you need explicit IE 8/9 support? Several corporate offices use IE in large numbers. 
+
+
+Again, these are guidelines on how you should be approaching making your theme selection. If you are going to custom design your theme - once again, these questions will help you. And these same guidelines you can also use for external modules which we will cover later in the course. 

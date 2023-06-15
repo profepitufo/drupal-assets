@@ -1,0 +1,19 @@
+﻿IMAGES STYLES
+Configuration > Media > Image Styles
+-Large 480 x 480
+-Medium 220 x 220
+-Thumbnail 100 x 100
+Add Image Style
+Name:Grid Image
+CREATE A NEW STYLE
+EFFECT: Scale and Crop > Add
+Width: 200
+Height: 100
+ADD EFFECT.
+* para fotos en las que se parte una parte de la misma, existe un modulo denominado Focal Point, que se puede cargar y con dicho modulo, establecer a partir de donde se debe mostrar la imagen.
+* despues de establecer el punto focal que se desea, hay que actualizar el Estilo creado empleando como Efecto: Focal Point Scale and Crop 200 x 100.
+*******************************************
+-el modulo Responsive Image permite trabajar imagenes responsivas.
+-forma parte del CORE y hay que generar el estilo respectivo.
+
+

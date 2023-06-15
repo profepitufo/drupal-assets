@@ -1,0 +1,3 @@
+Archivos Guardados en sitio de Drupal
+
+cursosdigitales.com.mx/sites/default/files/pdf/<nombre del archivo y extension>

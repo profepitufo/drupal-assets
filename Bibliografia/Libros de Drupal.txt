@@ -1,0 +1,16 @@
+﻿Drupal Books
+
+Drupal 8 Development: Beginner's Guide
+Autores: Neeraj, Krishna Kanth, Rakesh James, ...
+
+Drupal 8 Development CookBook
+Autores: Matt Glaman
+
+Learning Drupal 8
+Autores: Nick Abbott, Richard Jones
+
+Mastering Drupal 8 Views
+Autores: Gregg Marshall
+
+Drupal 8 Module Development
+Autores: Daniel Sipos

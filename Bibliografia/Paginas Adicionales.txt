@@ -1,0 +1,33 @@
+﻿PAGINAS ADICIONALES
+COLLECTION
+Contenido / Agregar / Basic Page
+Title: Collection
+Text: Vintage Design Luxury Winding Watches
+Table: 3 Filas x 2 Columnas
+Colocar imagenes en cada Celda de la Tabla con textos alternativos para las mismas
+Crear el Menu Link para la pagina:
+MENU SETTINGS
+Habilitar el Check Box: Provide a menu link
+Menu Link Title: Collection
+Description: See out watch Collection
+Weight: 100 (entre mayor sea el numero, aparecera mas a la derecha)
+Parent Item: <Main Navigation>
+URL alias: /collection
+Guardar
+ABOUT AMADEUS
+Contenido / Agregar / Basic Page
+Title: About Amadeus
+Body: Copiar y pegar el texto que se encuentra dentro de un archivo de Bloc de Notas con el contenido de esta pagina
+Colocar las 3 imagenes de los principales actores de esta empresa con nombre, en una tabla
+Adicionar la historia a continuacion de dicha tabla y que la pagina aparezca hacia la derecha de COLLECTION
+CONTACT FORM
+Structure / Contact Forms
+Seleccionar: Website Feedback como formulario a utilizar(no cambiar nada en este momento)
+Structure / Menus
+Editar el Main Navigation Menu
+Add a Link
+Title: Contact Us
+Link: /contact
+Weight: 150
+Guardar
+

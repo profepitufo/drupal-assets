@@ -1,0 +1,36 @@
+﻿CATEGORY VOCABULARY
+Structure / Taxonomy
+Add Vocabulary
+Name: Category
+Description: Escribir una descripcion apropiada.
+SAVE
+================================================
+Add Term
+Name: Front-end
+SAVE.
+Name: Development
+SAVE.
+Manage Fields (normalmente no se emplea)
+Mange form display (se deja como esta)
+Manage display (se deja como esta)
+================================================
+Structure / Content Type / Blog
+MANAGE FIELDS
+Add Field
+Taxonomy term
+Limited: 1
+(enable) requiered field
+Reference method
+(enable) Create referenced entities if they don't exist
+Available Vocabularies
+(enable) Category
+SAVE FIELDS SETTINGS
+
+MANAGE FORM DISPLAY
+Reacomodar el campo Category y cambiar su tipo de desplegado por: Select List.
+SAVE
+
+MANAGE DISPLAY
+En la columna FORMAT cambiar su formato a LABEL
+SAVE
+

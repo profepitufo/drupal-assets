@@ -1,0 +1,6 @@
+﻿Forums
+antes denominados BBS
+soluciones de codigo abierto en el mercado:
+vBulletin
+phpBB
+Drupal

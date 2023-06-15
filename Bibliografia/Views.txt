@@ -1,0 +1,55 @@
+﻿VIEW MODES
+
+Structure / Content Type
+En el contenido del Tipo BLOG, que se acaba de crear, sobre la coluna OPERATIONS, seleccionar MANAGE DISPLAY.
+
+En la ventana que aparece,pulsar en la opcion TEASER.
+
+Acomodar TEASER para que sea el primero y LINKS por debajo, quitar BODY.
+  LABEL: hidden
+  FROMAT: Default
+
+Regresar a la ventana Anterior y modificar la seccion CUSTOM DISPLAY SETTINGS, marcando la casilla: FULL CONTENT.
+
+Aparece ahora una nueva pestaña con la palabra FULL CONTENT, donde se pueden modificar todo lo que se desee.
+
+CREATE A PAGE USING VIEW
+Structure / Views
+Add new View
+
+View Name: Articles
+View Settings: Show->Content, of type-> Article, sorted by->Newest first.
+
+PAGE SETTINGS
+(enable) Create a page
+-Page title: Latest Articles.
+-Path: latest-articles.
+PAGE DISPLAY SETTING
+dejarlos como se encuentran, aunque se pueden cambiar.
+-Items to display = 10
+(enable) Use a pager.
+(disable) Create a menu link.
+(disable) Module an RSS fedd.
+BLOCK SETTINGS
+dejar como esta, o bien, se puede marcar la casilla->Create a Block.
+SAVE and EDIT
+cambiar las caracteristicas de la vista.
+**************************************************
+Extend
+-buscar Views, se muestran dos: Views y Views UI
+Views: el modulo que permite tener vistas en el sitio.
+Views UI: el modulo que la interfaz del usurio.
+******************************************
+-seccion ADVANCED > RELATIONSHIP, localizar AUTHOR y marcar la casilla > APPLY.
+-una vez realizado lo anterior, regresar a la seccion: FIELDS y localizar USER.
+-marcar la casilla: USER PICTURE > APPLY.
+-cambiar el IMAGE STYLE a THUMBNAIL.
+-cambia LINK IMAGE TO a CONTENT.
+APPLY.
+
+
+
+
+
+
+

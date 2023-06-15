@@ -1,0 +1,88 @@
+BLOCKS
+
+Un contenedor de informacion que se despliega en una region de la pagina o paginas.
+
+VISUALIZAR LAS REGIONES DE UN TEMA.
+Structure / Block Layout / Demonstrate block regions (del tema que se tenga).
+
+La manera mas comun es mostrarlos en los sidebar.
+
+Existen 4 tecnicas de crear blocks:
+	1. Blocks incluidos en Drupal Core
+	2. Blocks creados en Modulos Externos
+	3. Blocks creados por Vistas y Menus
+	4. Blocks creados Custom
+
+CREAR UN BLOCK
+Structure / Block Layout / Custom Block Library
+Add custom block
+Block description: Colocar una Descripcion para el Block.
+Body: Escribir contenido.
+SAVE.
+
+AGREGANDO BLOCK A UNA REGION
+Structure / Block layout
+Sidebar second, Place Block
+*localizar un block, configurarlo de manera adecuada a sus necesidades.
+SAVE BLOCK.
+SAVE BLOCKS.
+
+CONTROL BLOCK VISIBILITY
+NOTA: acceder al block utilizando el icono del lapiz, en caso de estar en modo edicion del lugar.
+
+SECCION VISIBILITY
+se puede configurar por
+-Content Type (article, pages)
+-Pages (colocar las paginas donde se quiere que aparezca)
+-Role (Anonymous, Authenticated, Administrator)
+SAVE.
+
+BLOCK CONTENT
+Structure / Block Layout
+Custom block library
+
+Add custom block (ficha: blocks)
+-Block description
+-Body
+SAVE
+
+Add custom block ( ficha: block types)
+*se pueden modificar y colocar al gusto.
+
+CREAR UN BLOCK: CALL TO ACTION
+
+Crear el tipo
+Label: Call-to-Action
+Description: use for CTA
+SAVE
+
+MANAGE FIELDS
+Add field
+seleccionar Image
+Label: Image
+SAVE FIELD SETTINGS
+SAVE SETTINGS
+Asignar el Block a una Region.
+
+ASIGN BLOCKS DIRECTLY FROM ARTICLE FORM
+Structure / Content Type
+Manage Field
+Add Field
+Other (from Reference section)
+Label: Blocks
+SAVE and CONTINUE
+*en la seccion Type of Item to Reference, seleccionar Custom Block.
+*cambiar Allowed Number of Values->Unlimited.
+SAVE FIELD SETTINGS
+*en la seccion REFERENCE TYPE, seleccionar->Call-to-Action
+SAVE SETTINGS
+*en la seccion MANAGE DISPLAY, arrastrar el campo Blocks hacia el area de DISABLED y SAVE.
+
+
+
+
+
+
+
+
+

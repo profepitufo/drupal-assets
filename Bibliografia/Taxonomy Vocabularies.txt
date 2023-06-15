@@ -1,0 +1,44 @@
+﻿Taxonomy Vocabularies
+
+Dos tipos de texonomia:
+-Free Form (like tagging)
+-Structured
+
+Structure / Taxonomy
+Add vocabulary
+Name->Watch Movement
+Description->Make watch and its functions
+SAVE
+Add Term
+Name->Quartz Movement
+Description->Runs on battery.
+RELATIONS
+To create Parents and Child Terms.
+URL alias->/Quartz-Movement
+SAVE
+
+** Crear los demas terminos.
+** Asociar el vocabulario con el Tipo de Contenido deseado.
+
+** All Taxonomies are Entity Reference
+
+Add Field
+Add a new field->Reference->Taxonomy Term
+
+******************************************
+Food Sensitivities - Vocabulary
+-Gluten Free
+-Nut Free
+-Peanut Free (child of Nut Free)
+-Egg Free
+-Dairy Free
+****************************************
+-Crear una Vista, VIEW NAME: Recipe Navigation; VIEW SETTINGS: Show=Taxonomy Terms, of Type=Food Sensitivities, Sorted By=Unsorted.
+-marcar la casilla: Create a Block.
+SAVE and EDIT.
+-modificar FORMAT seleccionando HTML List > APPLY (all displays).
+SAVE.
+-Structure > Block Layout
+-seleccionar el block que se acaba de crear y colocarlo en Sidebar First.
+
+

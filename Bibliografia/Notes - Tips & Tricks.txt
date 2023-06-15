@@ -1,0 +1,12 @@
+﻿NOTES, TIPS & TRICKS
+Se puede crear un sumario personalizado del Articulo.
+
+Al momento de estarlo creando, si se pulsa sobre el enlace: Edit Summary, aparece una nueva sección en donde se puede mecanografiar dicho breviario; en caso de no hacerlo (como es el caso de estos articulos), Drupal lo hace por uno.
+
+En Article Content Type configuration page, hay diferentes configuraciones que se pueden actualizar, una de ellas es el Teaser.
+
+Los Comentarios se encuentran activos para Articulos pero no para Basic Pages.
+
+La pagina Frontal que muestra las entradas del blog, es en realidad una VIEW sin un diseño particular aplicado.
+
+

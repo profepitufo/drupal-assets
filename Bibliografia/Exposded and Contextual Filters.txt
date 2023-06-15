@@ -1,0 +1,18 @@
+﻿EXPOSED FILTERS
+-filters that are visible for the user.
+-Crear una Vista nueva para las Recetas, y solamente va a mostrar RECIPE, crear una pagina y agregar un link en el menu de Main Navigation.
+SAVE and EDIT.
+=========================================
+-modificar la vista y agregar un nuevo Filtro: Food Sensitivities, marcar su casilla y APPLY (all displays).
+-remarcar la casilla en la seccion de Vocabulary: Food Sensitivities.
+-en la Selection type, marcar la opcion: Dropdown y la opcion: Show Hierarchy in Dropdown.
+APPLY and CONTINUE.
+-en la siguiente pantalla, dejar todo como esta, se marcará dependiendo lo que se desee filtrar, para este caso, no hay nada predeterminado.
+-Expose this filter to visitors, to allow them to change it.
+-modificar Label, para que no muestre el nombre del campo interno.
+APPLY.
+SAVE.
+******************************************
+CONTEXTUAL FILTERS
+-un ejemplo de ello es TAGS, que al tener varias y pulsar sobre alguno de ellos, se muestran todos los elementos que lo contienen.
+-en la seccion ADVANCED de la vista, existe una seccion denominada: CONTEXTUAL FILTERS, donde se puede escoger el tipo de contentexto que se desea.

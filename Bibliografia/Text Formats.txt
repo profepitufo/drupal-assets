@@ -1,0 +1,8 @@
+﻿TEXT FORMATS
+Configuration > Text Formats and Editors
+
+-Basic HTML (CKEditor)
+-Restricted HTML
+-Full HTML (CKEditor)
+-Plain Text
+

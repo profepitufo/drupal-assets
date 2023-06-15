@@ -1,0 +1,3 @@
+Home / Administration / Configuration / Development
+CLEAR CACHE
+(Clear all caches)

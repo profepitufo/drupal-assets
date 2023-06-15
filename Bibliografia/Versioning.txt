@@ -1,0 +1,6 @@
+﻿VERSIONING
+consiste en mantener control de las versiones que se pueden tener de un Articulo en Drupal
+
+Structure / Content Types / Article / Edit
+
+Publishing options y debe estar marcada la casilla de Create new Revision
