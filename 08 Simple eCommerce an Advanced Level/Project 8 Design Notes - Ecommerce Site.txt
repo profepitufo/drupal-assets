@@ -1,0 +1,98 @@
+PROJECT OBJECTIVE: Create a simple Drupal based eCommerce site catering men's shoes, built upon the UberCart module. 
+------------------------------------------------------
+IMPORTANT: CAVEATS FOR THIS PROJECT
+- We will build a minimal eCommerce site, as suitable to the Scope of this course. So, that means, we will not be covering all the features of UberCart extensively. The focus is on learning/teaching Drupal Modules - NOT on building an complex ecommerce site. Therefore, specialized features are not addressed.
+- I encountered a couple of minor bugs both with UberCart and the theme that I used. I chose to retain them as it is, to show you a real picture of what type of issues you will face in a real life situation - and this is what you should base your expectation upon. There were workarounds for them and I will mention it in the lessons. 
+----------------------------------------------------
+Steps to recreate Project 8: Simple eCommerce Site:
+
+
+step 1: Install Drupal. 
+	- I have used Drupal 8.X
+	
+About UberCart: It implements everything you need to start selling products online. Supports a variety of E-Commerce options - including physical goods, digital downloads, and even subscription based billing services. Fully integrated with PayPal right out of the box.
+
+<optional Site Config - setup automatic emails>
+	
+step 2: Install UberCart module
+
+	- You can download it from here <https://www.drupal.org/project/ubercart>
+	- UberCart package will install multiple modules automatically (5 new sections: Ubercart core, Ubercart Optional, Ubercart Extra, Ubercart payment, Ubercart Shipping)
+	- Enable the following modules (this is the MINIMAL set required for our project)
+	- Everything from UberCart Core.
+	- From Optional
+	  Enable Catalog, Payment and Report.
+	- In Payment
+	  Enable "PayPal" Module.	
+	- OPTIONAL: Install "Admin Toolbar" module.
+	
+step 3: New Store and Content Type for Products
+
+	- A new "Store" menu item appears in the Admin menu after UberCart installation. This is a complete configuration dashboard to control every aspect of UberCart on Drupal
+	- a new Content Type called "Product" is created
+
+step 4: Configure The Store
+
+	- First, configure the store from the "Store Configuration" page
+	- Payments, shipping, roles and downloads 
+	- Shipping - assign shipping carriers / Free shipping / Flat Rates
+	- Payment gateway integration - prebuilt like Authorize.Net, Paypal Standard etcetera.
+	- I have used Paypal Express Checkout (reasons are detailed fully in the video lesson)
+	- NOTE: Disable Checkout (unless you have secure SSL certification and all it's implications - collecting personal information on an unsecured page)
+	- NOTE: it is possible to use Ubercart as a physical store's inventory management system - with stock settings - albeit with very simple requirements
+	
+step 5: Build a Catalog. 
+
+	* Catalog is just a Drupal Taxonomy - so create terms in same fashion. 
+	* Give URL alias as shown in square brackets below:
+	* OPTIONAL AND NICE: Associate an image with each term. Use any of the appropriate product images.
+		Sandals, [/sandals]
+		Slippers, [slippers]
+		Casual Shoes, [/casual_shoes]
+		Formal Shoes, [/formal_shoes]
+		Boots, [/boots]
+		Sports Shoes, [/sports_shoes]
+
+NOTE: the more powerful way of categorizing products is through "Product Classes" - and this will allow adding product attributes and variants
+	
+step 6: Create Products [refer the other text file for content material]
+
+	- Use Title and Body - from the attached text file
+	- HINT: for ease, use the same test for Title, SKU and image's alternative text
+	- Use Images from download resources (observe their naming convention first - and use appropriately)
+	- Use the same image file name as SKU
+	- Map every Product to the Taxonomy/Catalog term - IMPORTANT
+	- Price - as you like
+	
+	
+step 7: Edit the teaser view of Product
+
+	- remove SKU, Weight and Dimensions from teaser Display (drag and drop to the Disabled section)
+	- Edit image. Format - medium, linked to content. Move to top location. 
+	- OPTIONAL: Also edit the full view if you want
+	
+step 8: Add Theme
+
+	- At this time (May 2017), there are no free Ubercart special optimized themes
+	- Zircon was the closest I found 	<https://www.drupal.org/project/zircon>
+	- You can experiment with any theme of your fancy that will suit an ecommerce site. Many normal popular themes can be tried also
+	- Add Login link and Shopping cart link (only if necessary, according to the theme you select)
+	
+	
+step 9: Frontpage design
+	
+	Configuration > Basic Site Settings>
+	- Site name: "We Got Sole!"
+	- Point "Default Front Page" to the Catalog => "/catalog". NOTE: this is actually a special view created by Ubercart
+	
+	People > Permissions page>
+	- IMPORTANT: Catalog > View Catalog permission --> enable for both Anonymous User and Authenticated User
+	- Add the Catalog block to any sidebar region
+	
+	Structure > Block Layout>
+	- Add Catalog Block
+	- Add any additional HTML blocks as you like, to display marketing / SEO content
+
+step 10: Do a site testing and review
+
+	- Paste screenshot of your site on the Q&A section of the course.
