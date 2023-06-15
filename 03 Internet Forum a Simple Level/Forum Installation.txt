@@ -1,0 +1,54 @@
+﻿FORUM SITE OF GUITAR FANS
+Paso 1
+Appearance -> Settings
+Logo Image: y colocar la imagen del logo; realizar la misma operacion con el Favicon
+Como la imagen del Sitio contiene el nombre del mismo, se puede eliminar el texto del nombre en el Site Name area
+
+Paso 2
+Configuration -> Basic site settings
+Site name: A global community of Guitar Lovers - from beginner to pro!
+Guardar y visualizar
+
+Paso 3
+Cambiar los colores del sitio
+Appearance -> Settings link (de la plantilla Bartik)
+Color Set: Firehouse
+Guardar y visualizar
+
+Paso 4
+Instalar el Modulo del Foro
+Extend -> Scroll Down hasta encontrar el Modulo Forum y pulsar en la casilla de verificacion del mismo para seleccionarlo
+Scroll Down hasta el final de la pagina y pulsar en el boton INSTALL
+Se ha creado una nueva opcion de contenido denominada Forum Topic
+Se ha agregado un nuevo Link en la seccion Structure con el nombre de Forums
+Si se pulsa sobre el nombre, se muestra una ventana que agrega de manera predeterminada una nueva discusion denominada General Discussion
+Se ha adicionado una pestaña Settings que contiene diversas opciones que pueden ser configuradas
+
+Paso 5
+People -> Permissions -> Scroll Down hasta localizar 
+Forum -> Administer forums and Node
+Se han creado nuevo permisos
+
+Paso 6
+Diseñar la estructura del Foro
+Structure -> Forum
+Add Container
+Name: asignar los nombres en el archivo de texto adjunto
+
+Paso 7
+Crear la Front Page
+En el Block denominado TOOLS ha aparecido un nuevo Link denominado Forums, asi que pulsar en el
+Configuration -> Basic Site Settings
+En la seccion FRONT PAGE cambiar el termino /node por el de /forum
+Guardar y visualizar
+
+
+
+
+
+
+
+
+
+
+

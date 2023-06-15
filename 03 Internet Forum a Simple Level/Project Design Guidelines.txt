@@ -1,0 +1,66 @@
+PROJECT OBJECTIVE: Create an Internet Forum catering to Guitar Enthusiasts worldwide!
+
+1. Install Drupal. I have used Drupal 8.2.6 in this exercise.
+
+2. create logo, logo image, tag line
+	- 1800*168 logo image
+	- site name: "A global community of Guitar Lovers - from beginner to pro!"
+
+3. colour branding. 
+	- as explained in the lesson
+
+4. install forum module
+	- Extend -> Forum (enable and save)
+	
+5. What happens (automatically) after Forum installation?
+	- new Content Type will be created - "Forum topic" [A forum topic starts a new discussion thread within a forum.]
+	- under Structure, new "Forums option link" will be created - "Control forum hierarchy settings"
+		- A new forum is created called "General Discussion"
+		- Settings tab is created (hot topics threshold, topics per page, default order)
+		- new Permissions created "Forum -> Administer forums"; "Node -> different content creation permissions"
+		- Forum topic permissions - 8 new created
+
+6. Design the structure of your forum
+	- Forum Rules & Guidelines
+	- start with creating Containers 
+	- Beginner's Start Here - "New to the forum? Don't be a stranger. Introduce yourself here.The mechanics of playing guitar. Discuss and ask questions about styles and techniques here."
+	- Acoustic Guitar - "From rock artists to blues or pop artists, everyone loves an acoustic guitar."
+	- Gear Studio - "Post your questions or tips on your home studio setup here. Want to record your guitar? Ask your questions here. "
+	- Guitar Tabs Archive - "The structure of music and theory. Ask your questions here. Songwriting threads can also be posted here. "
+	- Guitar Lessons - "Looking to collaborate with other members, get involved here. It's a great way to improve on your playing skills."
+	- Les Paul Forums - "Dedicated to the classic Les Paul design - all brands welcome"
+	- Fender Fans club - "Since 1946, Fender's iconic Stratocasters, Telecasters and Precision & Jazz bass guitars have transformed nearly every music genre."
+	- Gibson Guitars - "Dedicated to the legend - Gibson has been making iconic Guitars for countless musicians for over 100 years. "
+	- adjust Order and save
+
+7. Create the front page
+	- Home Administration Configuration System  --> Default front page --> /forum
+	- Other links to forum
+	
+
+8. Create Roles, set permissions, create users
+	- authenticated user - create topics, reply to topics
+	- Forum topic: Create new content
+	- Forum topic: Delete own content
+	- Forum topic: Edit own content
+	- Users: rahul, diana, princey
+		
+	- Forum Moderator - create topics, reply to topics, delete replies, delete topics
+	- all remaining Forum permissions
+	- Users: forum_mod
+		
+	- Forum Administrator - all forum rights
+	- Forum: Administer forums
+	- Users: forum_admin
+
+9. Managing Forums
+	- "is a forum container, not a forum. Select one of the forums below instead."
+	- http://localhost/drupsandbox/d826sbe3/admin/help/forum
+	
+*********Copyright Info*********
+* Copyright Srikanth R Shirodkar 2017-2022. srikanth.shirodkar@gmail.com
+* Lifetime access for 94% OFF discount for just $12  - HD video Lessons, Quizzes, 10 complete Projects:
+* Share or Gift to your Colleagues, Team members, friends or family members
+* https://www.udemy.com/drupal-tutorial/?couponCode=COPYRIGHTDISCOUNT
+* CONQUER Drupal 8 today! Get promotions, respect of peers and mastery of your domain.
+********************************

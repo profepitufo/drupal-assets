@@ -1,0 +1,23 @@
+﻿CONTENT WORKFLOWS IN A FORUM
+People -> Roles
+Add role:
+Forum Moderator
+Forum Admin
+
+Permissions TAB
+Authenticated User
+desplazarce hacia la seccion NODE y activar las casillas de FORUM TOPIC: Create new content
+Delete own content
+Edit own content
+para el Moderador se deben marcar los permisos necesarios
+para el Admin realizar la misma operacion
+asignar los Roles a los Usuarios
+People
+seleccionar la casilla del usuario
+en el parametro ACTION, escoger la opcion ADD THE FORUM MODERATOR ROL TO THE SELECTED USER
+hacer lo mismo por el ADMIN
+
+
+
+
+
