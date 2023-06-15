@@ -1,0 +1,168 @@
+﻿PROJECT OBJECTIVE: To create a Film Review Site similar to rogerebert.com
+=============================
+Design Principles/Notes:
+
+1. Only use Drupal Core - no external modules used.
+
+2. There are basically 3 popular types of review sites 
+   - sites on which some Expert makes reviews (e.g: rogerebert.com), 
+     or where general public (registered users) makes ratings (e.g IMDB). 
+   - Third type is an review aggregation site (e.g. rottentomatoes.com). 
+      ** We are implementing the former (expert based).
+
+3. Note: There are a few external modules that provide Ratings/Review. 
+   - but since we are not using external modules yet, 
+     I have implemented a simple hack to get 
+     5-star ratings using Content Type Fields. 
+	** Modules which can give ratings feature: Fivestar, Rate, Star
+
+========== STEPS TO IMPLEMENT PROJECT ==========
+
+Step 1: Install Drupal.
+** En la seccion BASIC SETTINGS, colocar el Nombre, Slogan, Imagen Logo, Favicon, etcetera.
+** En la seccion de ACCOUNT SETTINGS, marcar la opcion ADMINISTRATORS ONLY, para la seccion REGISTRATION AND CANCELLATION.
+------------------------------------------------
+Step 2: Select Theme and install it
+------------------------------------------------
+Step 3: Based on theme choice, Configure Site name, slogan, front page
+	- I have used free theme "Showcase LITE" url:
+	<https://www.drupal.org/project/showcase_lite>
+	- This is a free version of a premium theme 
+	- with some functionality not available. 
+	- Make only basic configurations at the beginning 
+	- we will come back to this later.
+------------------------------------------------			
+Step 4: Create new Taxonomy called as 
+	"Film Genre"
+	"Film Certification"
+
+* Taxonomy FILM GENRE [for Taxonomy Creation]: 
+** Terms
+	-Action [URL alias : "/ActionFilms"]
+	-Adventure [URL alias : "/AdventureFilms"] 
+	-Biography [URL alias : "/BiographyFilms"]
+	-Comedy [URL alias : "/ComedyFilms"]
+	-Documentary [URL alias : "/DocumentaryFilms"]
+	-Drama [URL alias : "/DramaFilms"]
+	-Horror [URL alias : "/HorrorFilms"]
+	-Musical [URL alias : "/MusicalFilms"]
+	-Science Fiction [URL alias : "/ScienceFictionFilms"]
+
+* Taxonomy Film Certification: 
+	-Description: Designated to classify films with regard to
+	suitability for audiences in terms of issues such as sex,
+	violence, substance abuse etcetera.
+** Terms
+	- General (G) – General. The content is very mild in impact.
+	- Parental Guidance (PG) – Parental guidance recommended. 
+	- Mature (M) – Recommended for mature audiences. 
+--------------------------------------------------------------			
+Step 5: Create new custom Content Type called as "Film Review"
+	* Name: Film Review
+	* Description: Use "Film Review" content type to create
+		movie reviews
+	* Submission form settings tab: no changes
+	* Publishing Options: no changes
+	* Display Settings: Disable "Display author and date information"
+	  checkbox. Because we will create a separate author field.
+	* Menu Settings: Disable all menus
+--------------------------------------------------------------
+Step 6: Add all of these 13 new custom Fields to the new Content Type created - followed by our 2 new taxonomy terms
+
+** New fields:
+	Reviewer [Text (plain)]
+	Review Date ["Date only" - don't choose "Date and Time"]
+	Director [Text (plain)]
+	Screenplay [Text (plain)]
+	Review Rating [List (integer)]
+---------------------------------------------------------------
+	IMPLEMENTING THE RATING FIELD
+	- Use field type "List (integer)" and in options use this values (so there will be select/radios with stars shown, but stored as a integer):
+	5|★★★★★
+	4|★★★★☆
+	3|★★★☆☆
+	2|★★☆☆☆
+	1|★☆☆☆☆
+	- The only limitation with this technique is - there are no half-stars! Half-stars give 10 level granularity. A 10-level granularity can be achieved by making 10 star design instead of the 5 stars. These are alternatives you could try out. 
+	- What other ways could you design/implement this? Share your creative ideas in the Q&A section.
+	1|★
+	2|★★
+	3|★★★
+	4|★★★★
+	5|★★★★★
+-----------------------------------------------------
+	Review - just rename the "Body" field with name "Review"
+	Dialogue [Text (plain)]
+	Music [Text (plain)]
+	Story [Text (plain)]
+	Cinematographer [Text (plain)]
+	Editor [Text (plain)]
+	Composer [Text (plain)]
+	Run Time [integer]
+	
+** Existing Fields: 
+	Image
+	Tags [Autocomplete (Tags style)]
+----------------------------------------------------------
+Step 7: Manage "Form Display" tab. 
+	* Arrange the fields as how you you would like them 
+	to appear on the content creation form. 
+	
+	* A rule of the thumb is - 
+		a. Title (or name) should always appear first
+		b. more important data and required fields 
+		   should appear higher on the form. 
+		c. Related data should be grouped together
+		d. Any trivial data should sink to bottom of the page
+	
+		Authored By - widget - Autocomplete
+		Film Genre - widget -  Checkboxes/Radio Buttons
+		Film Certification - widget - Checkboxes/Radio Buttons
+-----------------------------------------------------------	
+Step 8: Manage "Display" - Default Full View
+	- Make label "inline" for all new fields that we created
+	- Make label "hidden" for image field, 
+	  make sure it appears right after Title
+-----------------------------------------------------------
+Step 9: Manage "Display" - Teaser View
+	- Display in this order: 
+	  Image [label: hidden] 
+	  [Image Style: Large (480x480) ; Link image to: Content]
+	  Review: [Label: hiden] [Format: Summary or Trimmed]
+	  Review Rating [Label: inline]
+	  Reviewer [Label: hidden]
+	  Links
+
+<at this stage you have a fully functional site - the next steps are optional - and done for improved usability/visual design>
+-----------------------------------------------------------------	
+Step 10: You are ready to create content! Create atleast 10 reviews. 
+-----------------------------------------------------------------
+Step 11: Optional design: 
+* You can create 2 different image fields instead of just one 
+  - the additional image to be used only for the teaser view. 
+  - This technique is used in rogerebert.com
+------------------------------------------------------------------
+Step 12: Optional design: 
+* Create a new custom block "Mov.ie Club"
+* Place this block in the "Sidebar Second" region
+------------------------------------------------------------------
+Step 13: Optional design: 
+* Create a new menu using Film Genre Taxonomy 
+Structure > Menus > "Add menu"
+- Give name like "Film Genre Menu"
+
+NOTE: This entire process is exactly like creating a new Taxonomy Vocabulary
+- Add links - use same terms as Taxonomy "Film Genre"
+- For links in the menu, use the same exact URL alias created from the "Film Genre" vocabulary
+- Place this menu in the "Sidebar Second" region
+-----------------------------------------------------
+Step 14: Congrats, Project #6 has ended - look at the assignment 
+
+
+*********Copyright Info*********
+* Copyright Srikanth R Shirodkar 2017-2022. srikanth.shirodkar@gmail.com
+* Lifetime access for 94% OFF discount for just $12  - HD video Lessons, Quizzes, 10 complete Projects:
+* Share or Gift to your Colleagues, Team members, friends or family members
+* https://www.udemy.com/drupal-tutorial/?couponCode=COPYRIGHTDISCOUNT
+* CONQUER Drupal 8 today! Get promotions, respect of peers and mastery of your domain.
+********************************
