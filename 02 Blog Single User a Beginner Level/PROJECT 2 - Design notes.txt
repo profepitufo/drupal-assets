@@ -1,0 +1,50 @@
+PROJECT: CREATE A SINGLE-USER BLOG SITE
+---------------------------------------
+
+STEP 1. Install Drupal
+	- create a new database schema first 
+
+Configuration / Basic Site and Settings
+STEP 2. Set sitename, slogan
+	"Adventures with Drupal CMS" & "by Srikanth Shirodkar"
+
+Appearance
+STEP 3. Appearance - set the logo and favicon images - (both can be same)
+
+STEP 4. Appearance: Use Header color (top and bottom both) - f7ae2b
+
+
+Content / Add Content / Article
+STEP 5. Create 10+ articles
+	- include article image
+	- include tags
+Dummy Text Lorem Ipsum
+
+
+Content / Add content / Basic Page
+STEP 6. Create "About me" page
+	- add menu link
+/about
+
+
+STEP 7. OPTIONAL: Create navigation block
+	- create a new menu first 
+Structure / Menus / Add Menu
+-Title: Navigate The Blog
+-Summary: This menu will be a sidebar block	
+	- add links to the menu - ** by using tag pages!
+		copiar la direccion de un articulo
+	- add the new menu as a block in the "sidebar first" region
+Structure -> Block Layout -> Sidebar first -> Place Block ->
+		navagar hasta encontrar el Menu creado y Place Block SAVE BLOCKS
+	Note: Blocks and regions are covered in great depth later. Here, you can get introduced to them.
+	
+You are done!
+
+*********Copyright Info*********
+* Copyright Srikanth R Shirodkar 2017-2022. srikanth.shirodkar@gmail.com
+* Lifetime access for 94% OFF discount for just $12  - HD video Lessons, Quizzes, 10 complete Projects:
+* Share or Gift to your Colleagues, Team members, friends or family members
+* https://www.udemy.com/drupal-tutorial/?couponCode=COPYRIGHTDISCOUNT
+* CONQUER Drupal 8 today! Get promotions, respect of peers and mastery of your domain.
+********************************
