@@ -1,0 +1,16 @@
+Media Field
+Attach Media Field to Articles
+** Structure / Content Types
+* seleccionar Manage Fields en el Article
+** Add Field
+** Media
+** Label: Feature Asset
+** Continue
+** Image, Remote Video
+
+Use Inline Entity Form on Media Field
+** Extend
+* instalar Inline Entity Form
+* modificar el campo de Media y en la pestaña Manage Display, seleccionar: Inlien Entity Form Complex
+* permitir que los usuarios puedan agregar nuevo Media
+SAVE

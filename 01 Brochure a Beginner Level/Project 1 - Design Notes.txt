@@ -1,0 +1,36 @@
+Corporate Brochure Website
+--------------------------
+Demonstrating 
+1. Logo
+2. Header
+3. Frontpage
+
+-----------
+Things to do:
+
+	1. Config -> Basic site settings -> Site name, logo
+	
+	2. On D8.2x - To remove title, you can edit the block and make title hidden
+		- if you are on D8.3.x, just remove the block, this is equivalent
+	
+	3. Logo image - from Appearance - change logo image
+	
+	4. Change Theme colour scheme
+	
+	5. Add more pages
+
+-----------
+Contact page:
+
+- Contact form is already activated.
+- You just have to add a new link to the Main Navigation menu
+- refer to the video lesson on how to add the contact form
+
+
+*********Copyright Info*********
+* Copyright Srikanth R Shirodkar 2017-2022. srikanth.shirodkar@gmail.com
+* Lifetime access for 94% OFF discount for just $12  - HD video Lessons, Quizzes, 10 complete Projects:
+* https://www.udemy.com/drupal-tutorial/?couponCode=COPYRIGHTDISCOUNT
+* CONQUER Drupal 8 today! Get promotions, respect of peers and mastery of your domain.
+********************************
+	

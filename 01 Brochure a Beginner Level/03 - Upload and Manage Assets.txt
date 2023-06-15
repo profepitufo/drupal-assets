@@ -1,0 +1,20 @@
+Content
+* pulsar en la pestaña Media
+* seleccionar: Image
+* especificar lo que se desea
+
+Structure
+* seleccionar Media Types
+*** se pueden modificar o crear nuevos tipos dependiendo las necesidades. Es similar a como Agregar Tipos de Contenidos.
+
+Create Remote Video Media Type
+* agregar un nuevo modulo
+* localizar Video Embed
+* seleccionar Video Embed Media
+** Ahora ir a Structure
+- Media Types
+- Add media type
+*** en el parametro Media Source, especificar Video Embed Field, si se especifico un tipo determinado de proveedor de video, aparece listado.
+*** en el parametro Media Source Configuration, apareceran las opciones para configurar este Tipo.
+* al finalizar, pulsar SAVE.
+

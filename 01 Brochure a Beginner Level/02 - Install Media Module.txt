@@ -1,0 +1,4 @@
+Extend
+* buscar Media
+* hacer clic en la casilla
+* pulsar en el boton Install

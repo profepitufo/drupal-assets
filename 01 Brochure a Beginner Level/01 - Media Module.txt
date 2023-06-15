@@ -1,0 +1,22 @@
+Media Core
+** ya incluido en Drupal
+** viene con los tipos
+	image
+	file
+	audio
+	video
+** Recursos
+	Media Entity (usar mejor el Media Module incluido)
+	Entity Embed
+	Entity Browser
+
+** Modulos Requeridos
+	Media
+	Video embed Field(2.x)
+	Embed
+	Entity Embed
+	Entity Browser (2.x)
+	Ctools (optional)
+	Inline Entity Form
+	Dropsonejs
+	

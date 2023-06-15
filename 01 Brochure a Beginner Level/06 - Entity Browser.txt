@@ -1,0 +1,18 @@
+Installing
+** al instalarlo, solicita otro modulo que es CTOOLS, hay que instalarlo tambien para que funcione
+
+Create and Configure
+configuration
+entity browser
+add entity browser
+Label: Assets Library
+Display plugin: IFrame
+NEXT
+** marcar casilla Auto open entity browser
+NEXT
+NEXT
+NEXT
+** especificar el tipo de Widget
+
+Inline Entity Form to Entity Browser
+** crear tanta pestañas como entidades de Medios se quieran adiconar
